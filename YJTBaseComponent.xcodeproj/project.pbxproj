@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39894BE027951F33000DC698 /* YJTBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894BDF27951F33000DC698 /* YJTBaseTabBarController.swift */; };
+		39894BE227951F4D000DC698 /* YJTBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894BE127951F4D000DC698 /* YJTBaseNavigationController.swift */; };
+		39894BE427951F64000DC698 /* YJTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894BE327951F64000DC698 /* YJTBaseViewController.swift */; };
+		39894BE627951FA3000DC698 /* YJTRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894BE527951FA3000DC698 /* YJTRootTabBarController.swift */; };
+		39894BE927952071000DC698 /* YJTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894BE827952071000DC698 /* YJTHomeViewController.swift */; };
+		39894C0C27954610000DC698 /* YJTMineHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894C0B27954610000DC698 /* YJTMineHomeViewController.swift */; };
+		39894C0E27954795000DC698 /* YJTCoverTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894C0D27954795000DC698 /* YJTCoverTestViewController.swift */; };
+		39894C162795587F000DC698 /* YJTCoverAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39894C152795587F000DC698 /* YJTCoverAlertView.xib */; };
+		39894C1927955FD1000DC698 /* YJTAppUniversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894C1827955FD1000DC698 /* YJTAppUniversal.swift */; };
 		39916A82279172FE0041D84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39916A81279172FE0041D84B /* AppDelegate.swift */; };
-		39916A84279172FE0041D84B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39916A83279172FE0041D84B /* SceneDelegate.swift */; };
-		39916A86279172FE0041D84B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39916A85279172FE0041D84B /* ViewController.swift */; };
-		39916A89279172FE0041D84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39916A87279172FE0041D84B /* Main.storyboard */; };
 		39916A8B279173000041D84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39916A8A279173000041D84B /* Assets.xcassets */; };
 		39916A8E279173000041D84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39916A8C279173000041D84B /* LaunchScreen.storyboard */; };
 		39916A97279174760041D84B /* YJTCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39916A96279174760041D84B /* YJTCover.swift */; };
@@ -20,11 +26,17 @@
 
 /* Begin PBXFileReference section */
 		2D728C473C8BC18BAB8743F4 /* Pods_YJTBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJTBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39894BDF27951F33000DC698 /* YJTBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTBaseTabBarController.swift; sourceTree = "<group>"; };
+		39894BE127951F4D000DC698 /* YJTBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTBaseNavigationController.swift; sourceTree = "<group>"; };
+		39894BE327951F64000DC698 /* YJTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTBaseViewController.swift; sourceTree = "<group>"; };
+		39894BE527951FA3000DC698 /* YJTRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTRootTabBarController.swift; sourceTree = "<group>"; };
+		39894BE827952071000DC698 /* YJTHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTHomeViewController.swift; sourceTree = "<group>"; };
+		39894C0B27954610000DC698 /* YJTMineHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMineHomeViewController.swift; sourceTree = "<group>"; };
+		39894C0D27954795000DC698 /* YJTCoverTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTCoverTestViewController.swift; sourceTree = "<group>"; };
+		39894C152795587F000DC698 /* YJTCoverAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTCoverAlertView.xib; sourceTree = "<group>"; };
+		39894C1827955FD1000DC698 /* YJTAppUniversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTAppUniversal.swift; sourceTree = "<group>"; };
 		39916A7E279172FE0041D84B /* YJTBaseComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTBaseComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39916A81279172FE0041D84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39916A83279172FE0041D84B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39916A85279172FE0041D84B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39916A88279172FE0041D84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39916A8A279173000041D84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39916A8D279173000041D84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39916A8F279173000041D84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +58,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39894BDB27951E8C000DC698 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				39916A81279172FE0041D84B /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		39894BDC27951EA1000DC698 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				39916A8F279173000041D84B /* Info.plist */,
+				39916A8A279173000041D84B /* Assets.xcassets */,
+				39916A8C279173000041D84B /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		39894BDD27951ED2000DC698 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				39894BE527951FA3000DC698 /* YJTRootTabBarController.swift */,
+				39894BE72795204C000DC698 /* Home */,
+				39894C0A279545E2000DC698 /* Mine */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		39894BDE27951EF5000DC698 /* YJTBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				39894BDF27951F33000DC698 /* YJTBaseTabBarController.swift */,
+				39894BE127951F4D000DC698 /* YJTBaseNavigationController.swift */,
+				39894BE327951F64000DC698 /* YJTBaseViewController.swift */,
+			);
+			path = YJTBaseClass;
+			sourceTree = "<group>";
+		};
+		39894BE72795204C000DC698 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				39894BE827952071000DC698 /* YJTHomeViewController.swift */,
+				39894C0D27954795000DC698 /* YJTCoverTestViewController.swift */,
+				39894C152795587F000DC698 /* YJTCoverAlertView.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		39894C0A279545E2000DC698 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				39894C0B27954610000DC698 /* YJTMineHomeViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		39894C1727955F69000DC698 /* YJTAppUniversal */ = {
+			isa = PBXGroup;
+			children = (
+				39894C1827955FD1000DC698 /* YJTAppUniversal.swift */,
+			);
+			path = YJTAppUniversal;
+			sourceTree = "<group>";
+		};
 		39916A75279172FE0041D84B = {
 			isa = PBXGroup;
 			children = (
@@ -69,13 +145,9 @@
 		39916A80279172FE0041D84B /* YJTBaseComponent */ = {
 			isa = PBXGroup;
 			children = (
-				39916A81279172FE0041D84B /* AppDelegate.swift */,
-				39916A83279172FE0041D84B /* SceneDelegate.swift */,
-				39916A85279172FE0041D84B /* ViewController.swift */,
-				39916A87279172FE0041D84B /* Main.storyboard */,
-				39916A8A279173000041D84B /* Assets.xcassets */,
-				39916A8C279173000041D84B /* LaunchScreen.storyboard */,
-				39916A8F279173000041D84B /* Info.plist */,
+				39894BDB27951E8C000DC698 /* AppDelegate */,
+				39894BDD27951ED2000DC698 /* MainPage */,
+				39894BDC27951EA1000DC698 /* Resource */,
 			);
 			path = YJTBaseComponent;
 			sourceTree = "<group>";
@@ -83,9 +155,19 @@
 		39916A952791740C0041D84B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				39916A96279174760041D84B /* YJTCover.swift */,
+				39894C1727955F69000DC698 /* YJTAppUniversal */,
+				39894BDE27951EF5000DC698 /* YJTBaseClass */,
+				39916A9A2792B1600041D84B /* YJTCover */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		39916A9A2792B1600041D84B /* YJTCover */ = {
+			isa = PBXGroup;
+			children = (
+				39916A96279174760041D84B /* YJTCover.swift */,
+			);
+			path = YJTCover;
 			sourceTree = "<group>";
 		};
 		E5220F6CE1F97B22696C1060 /* Pods */ = {
@@ -134,6 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YJT;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
@@ -168,7 +251,7 @@
 				39916A8E279173000041D84B /* LaunchScreen.storyboard in Resources */,
 				39916A99279175190041D84B /* YJTBaseComponent.podspec in Resources */,
 				39916A8B279173000041D84B /* Assets.xcassets in Resources */,
-				39916A89279172FE0041D84B /* Main.storyboard in Resources */,
+				39894C162795587F000DC698 /* YJTCoverAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,24 +304,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39916A86279172FE0041D84B /* ViewController.swift in Sources */,
 				39916A82279172FE0041D84B /* AppDelegate.swift in Sources */,
-				39916A84279172FE0041D84B /* SceneDelegate.swift in Sources */,
+				39894BE027951F33000DC698 /* YJTBaseTabBarController.swift in Sources */,
+				39894BE427951F64000DC698 /* YJTBaseViewController.swift in Sources */,
+				39894C1927955FD1000DC698 /* YJTAppUniversal.swift in Sources */,
 				39916A97279174760041D84B /* YJTCover.swift in Sources */,
+				39894BE927952071000DC698 /* YJTHomeViewController.swift in Sources */,
+				39894C0C27954610000DC698 /* YJTMineHomeViewController.swift in Sources */,
+				39894BE227951F4D000DC698 /* YJTBaseNavigationController.swift in Sources */,
+				39894C0E27954795000DC698 /* YJTCoverTestViewController.swift in Sources */,
+				39894BE627951FA3000DC698 /* YJTRootTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39916A87279172FE0041D84B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39916A88279172FE0041D84B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39916A8C279173000041D84B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -376,13 +457,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YJTBaseComponent/Info.plist;
+				INFOPLIST_FILE = YJTBaseComponent/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,13 +487,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YJTBaseComponent/Info.plist;
+				INFOPLIST_FILE = YJTBaseComponent/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

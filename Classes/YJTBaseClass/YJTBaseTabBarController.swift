@@ -7,9 +7,9 @@
 
 import UIKit
 
-class YJTBaseTabBarController: UITabBarController {
+open class YJTBaseTabBarController: UITabBarController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         

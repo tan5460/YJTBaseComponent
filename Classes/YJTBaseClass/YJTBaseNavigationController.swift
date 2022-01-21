@@ -7,15 +7,15 @@
 
 import UIKit
 
-class YJTBaseNavigationController: UINavigationController {
+open class YJTBaseNavigationController: UINavigationController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         
     }
     
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if viewControllers.count >= 1 {
             viewController.hidesBottomBarWhenPushed = true
         }

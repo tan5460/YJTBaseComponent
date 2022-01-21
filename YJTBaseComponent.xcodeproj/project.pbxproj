@@ -16,6 +16,7 @@
 		39894C0E27954795000DC698 /* YJTCoverTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894C0D27954795000DC698 /* YJTCoverTestViewController.swift */; };
 		39894C162795587F000DC698 /* YJTCoverAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39894C152795587F000DC698 /* YJTCoverAlertView.xib */; };
 		39894C1927955FD1000DC698 /* YJTAppUniversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39894C1827955FD1000DC698 /* YJTAppUniversal.swift */; };
+		39914A35279A5DA900441CCA /* YJTBaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A34279A5DA900441CCA /* YJTBaseComponent.swift */; };
 		39916A82279172FE0041D84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39916A81279172FE0041D84B /* AppDelegate.swift */; };
 		39916A8B279173000041D84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39916A8A279173000041D84B /* Assets.xcassets */; };
 		39916A8E279173000041D84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39916A8C279173000041D84B /* LaunchScreen.storyboard */; };
@@ -35,6 +36,7 @@
 		39894C0D27954795000DC698 /* YJTCoverTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTCoverTestViewController.swift; sourceTree = "<group>"; };
 		39894C152795587F000DC698 /* YJTCoverAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTCoverAlertView.xib; sourceTree = "<group>"; };
 		39894C1827955FD1000DC698 /* YJTAppUniversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTAppUniversal.swift; sourceTree = "<group>"; };
+		39914A34279A5DA900441CCA /* YJTBaseComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTBaseComponent.swift; sourceTree = "<group>"; };
 		39916A7E279172FE0041D84B /* YJTBaseComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTBaseComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39916A81279172FE0041D84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39916A8A279173000041D84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		39916A952791740C0041D84B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				39914A34279A5DA900441CCA /* YJTBaseComponent.swift */,
 				39894C1727955F69000DC698 /* YJTAppUniversal */,
 				39894BDE27951EF5000DC698 /* YJTBaseClass */,
 				39916A9A2792B1600041D84B /* YJTCover */,
@@ -311,6 +314,7 @@
 				39916A97279174760041D84B /* YJTCover.swift in Sources */,
 				39894BE927952071000DC698 /* YJTHomeViewController.swift in Sources */,
 				39894C0C27954610000DC698 /* YJTMineHomeViewController.swift in Sources */,
+				39914A35279A5DA900441CCA /* YJTBaseComponent.swift in Sources */,
 				39894BE227951F4D000DC698 /* YJTBaseNavigationController.swift in Sources */,
 				39894C0E27954795000DC698 /* YJTCoverTestViewController.swift in Sources */,
 				39894BE627951FA3000DC698 /* YJTRootTabBarController.swift in Sources */,
@@ -456,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
+				EXCLUDED_ARCHS = armv7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YJTBaseComponent/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -486,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MGWB79Z83;
+				EXCLUDED_ARCHS = armv7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YJTBaseComponent/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -7,9 +7,9 @@
 
 import UIKit
 
-class YJTBaseViewController: UIViewController {
+open class YJTBaseViewController: UIViewController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         

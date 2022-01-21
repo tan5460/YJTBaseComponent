@@ -9,7 +9,7 @@ import UIKit
 
 
 ///弹窗背景蒙版样式
-enum YJTCoverMaskStyle{
+public enum YJTCoverMaskStyle{
     
     case none
     case color(_ color: UIColor)
@@ -28,7 +28,7 @@ enum YJTCoverMaskStyle{
 }
 
 ///内容视图显示在弹窗中的位置
-enum YJTCoverPosition {
+public enum YJTCoverPosition {
     case center
     case top
     case left
@@ -37,7 +37,7 @@ enum YJTCoverPosition {
 }
 
 
-class YJTCover: NSObject {
+public class YJTCover: NSObject {
     
     ///所有显示的弹窗
     private static var coverList = [YJTCoverView]()
@@ -116,7 +116,7 @@ class YJTCover: NSObject {
     
 }
 
-fileprivate extension YJTCover {
+extension YJTCover {
     
     class var keyWindow: UIWindow? {
         var window: UIWindow?
@@ -133,7 +133,7 @@ fileprivate extension YJTCover {
 
 
 
-fileprivate class YJTCoverView: UIView {
+public class YJTCoverView: UIView {
     
     var contentView: UIView?
     
@@ -236,7 +236,7 @@ fileprivate class YJTCoverView: UIView {
     }
     
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if hideOnTouchOut {
             let touch = touches.first
             let point = touch?.location(in: self)

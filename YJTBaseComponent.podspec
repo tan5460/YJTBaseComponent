@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YJTBaseComponent'
-  s.version          = '0.0.2'
+  s.version          = '0.0.2.1'
   s.summary          = 'YJT基础组件库'
 
   s.description      = <<-DESC
@@ -14,9 +14,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'Classes/*'
-  #s.subspec 'Category' do |c|
-      #c.source_files = 'LNBaseComponent/Classes/Category(系统类扩展)/**/*'
-  #end
-  
   s.frameworks = 'UIKit'
+  
+  s.subspec 'Universal' do |ss|
+      ss.source_files = 'Classes/YJTAppUniversal/*'
+  end
+  
+  s.subspec 'BaseClass' do |ss|
+      ss.source_files = 'Classes/YJTBaseClass/*'
+  end
+  
+  s.subspec 'YJTCover' do |ss|
+      ss.source_files = 'Classes/YJTCover/*'
+  end
+  
 end
